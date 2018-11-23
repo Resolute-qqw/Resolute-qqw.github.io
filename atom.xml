@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://Resolute-qqw.github.io/"/>
-  <updated>2018-11-23T07:23:43.857Z</updated>
+  <updated>2018-11-23T13:19:42.270Z</updated>
   <id>https://Resolute-qqw.github.io/</id>
   
   <author>
@@ -15,6 +15,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HelloWorld:qqw</title>
+    <link href="https://Resolute-qqw.github.io/2018/11/23/helloworld-qqw/"/>
+    <id>https://Resolute-qqw.github.io/2018/11/23/helloworld-qqw/</id>
+    <published>2018-11-23T13:19:42.000Z</published>
+    <updated>2018-11-23T13:19:42.270Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
