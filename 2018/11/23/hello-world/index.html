@@ -52,7 +52,7 @@
             
             <i class="fa fa-home"></i>
             
-            <span>Index</span>
+            <span>首页</span>
         </a>
     </li>
     
@@ -61,7 +61,7 @@
             
             <i class="fa fa-tags"></i>
             
-            <span>Tags</span>
+            <span>标签</span>
         </a>
     </li>
     
@@ -70,7 +70,7 @@
             
             <i class="fa fa-bookmark"></i>
             
-            <span>Categories</span>
+            <span>分类</span>
         </a>
     </li>
     
@@ -79,7 +79,7 @@
             
             <i class="fa fa-archive"></i>
             
-            <span>Archives</span>
+            <span>归档</span>
         </a>
     </li>
     
@@ -88,7 +88,7 @@
             
             <i class="fa fa-user-circle-o"></i>
             
-            <span>About</span>
+            <span>关于</span>
         </a>
     </li>
     
@@ -121,7 +121,7 @@
                 
                 <i class="fa fa-fw fa-home"></i>
                 
-                Index
+                首页
             </a>
         </li>
         
@@ -130,7 +130,7 @@
                 
                 <i class="fa fa-fw fa-tags"></i>
                 
-                Tags
+                标签
             </a>
         </li>
         
@@ -139,7 +139,7 @@
                 
                 <i class="fa fa-fw fa-bookmark"></i>
                 
-                Categories
+                分类
             </a>
         </li>
         
@@ -148,7 +148,7 @@
                 
                 <i class="fa fa-fw fa-archive"></i>
                 
-                Archives
+                归档
             </a>
         </li>
         
@@ -157,7 +157,7 @@
                 
                 <i class="fa fa-fw fa-user-circle-o"></i>
                 
-                About
+                关于
             </a>
         </li>
         
@@ -442,11 +442,102 @@
     </div>
 
     
+        <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
+<link rel="stylesheet" href="/css/my-gitalk.css">
 
+<div class="card gitalk-card" data-aos="fade-up">
+    <div id="gitalk-container" class="card-content"></div>
+</div>
+
+<script src="/libs/gitalk/gitalk.min.js"></script>
+<script>
+    let gitalk = new Gitalk({
+        clientID: '',
+        clientSecret: '',
+        repo: '',
+        owner: '',
+        admin: null,
+        id: '2018-11-23T15-23-43',
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    });
+
+    gitalk.render('gitalk-container');
+</script>
     
 
     
+        <link rel="stylesheet" href="/libs/gitment/gitment-default.css">
+<link rel="stylesheet" href="/css/gitment.css">
 
+<div class="gitment-card card" data-aos="fade-up">
+    <div id="gitment-content" class="card-content"></div>
+</div>
+
+<script src="/libs/gitment/gitment.js"></script>
+<script>
+var gitment = new Gitment({
+    id: 'Fri Nov 23 2018 15:23:43 GMT+0800',
+    owner: '',
+    repo: '',
+    oauth: {
+        client_id: '',
+        client_secret: ''
+    }
+});
+
+gitment.render('gitment-content');
+</script>
+    
+
+    
+        <div class="disqus-card card" data-aos="fade-up">
+    <div id="disqus_thread" class="card-content">
+        <noscript>Please enable JavaScript to view the
+            <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+    </div>
+</div>
+
+<script type="text/javascript">
+    disqus_config = function () {
+        this.page.url = 'https://Resolute-qqw.github.io/2018/11/23/hello-world/';
+        this.page.identifier = '/2018/11/23/hello-world/';
+        this.page.title = 'Hello World';
+    };
+    let disqus_shortname = '';
+
+    (function () { // DON'T EDIT BELOW THIS LINE
+        let d = document, s = d.createElement('script');
+        // 如：s.src = 'https://blinkfox.disqus.com/embed.js';
+        s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+    
+
+    
+    <div class="livere-card card" data-aos="fade-up">
+    <!-- 来必力City版安装代码 -->
+    <div id="lv-container" class="card-content" data-id="city" data-uid="">
+        <script type="text/javascript">
+            (function (d, s) {
+                let j, e = d.getElementsByTagName(s)[0];
+                if (typeof LivereTower === 'function') {
+                    return;
+                }
+
+                j = d.createElement(s);
+                j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+                j.async = true;
+
+                e.parentNode.insertBefore(j, e);
+            })(document, 'script');
+        </script>
+        <noscript>为正常使用来必力评论功能请激活JavaScript。</noscript>
+    </div>
+    <!-- City版安装代码已完成 -->
+</div>
     
 
     
