@@ -442,6 +442,28 @@
     </div>
 
     
+        <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
+<link rel="stylesheet" href="/css/my-gitalk.css">
+
+<div class="card gitalk-card" data-aos="fade-up">
+    <div id="gitalk-container" class="card-content"></div>
+</div>
+
+<script src="/libs/gitalk/gitalk.min.js"></script>
+<script>
+    let gitalk = new Gitalk({
+        clientID: '2e731d5882c5889ba51b',
+        clientSecret: '76c828d1829d02679025616aca722ab3e5a55979',
+        repo: 'Resolute-qqw.github.io',
+        owner: 'Resolute-qqw',
+        admin: "Resolute-qqw",
+        id: '2018-11-23T15-23-43',
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    });
+
+    gitalk.render('gitalk-container');
+</script>
+    
 
     
 
