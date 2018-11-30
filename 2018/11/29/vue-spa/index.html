@@ -404,33 +404,33 @@ export default {
 </code></pre>
 <h1 id="使用-Vue-CLI-构建项目"><a href="#使用-Vue-CLI-构建项目" class="headerlink" title="使用 Vue CLI 构建项目"></a>使用 Vue CLI 构建项目</h1><p>Vue 提供了一个 <code>Vue CLI</code> 的工具可以让我们快速的搭建起一个 SPA 的项目来。</p>
 <h2 id="官方网站"><a href="#官方网站" class="headerlink" title="官方网站"></a>官方网站</h2><p>官方文档：<a href="https://cli.vuejs.org/zh/" target="_blank" rel="noopener">https://cli.vuejs.org/zh/</a></p>
-<p><img src="../../public/medias/assets/image-20181117093433022-2418473.png" alt="image-20181117093433022"></p>
+<p><img src="/medias/assets/image-20181117093433022-2418473.png" alt="image-20181117093433022"></p>
 <h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>首先要确定自己的电脑上安装了 <code>Node.js</code> 8.9 或更高版本。</p>
 <p>然后，我们就可以使用 npm 来安装 vue/cli ：</p>
 <pre><code>npm install -g @vue/cli
 </code></pre><p>安装之后，我们可以在命令行中使用 vue 指令查看安装的版本：</p>
 <pre><code>vue --version
-</code></pre><p><img src="../../public/medias/assets/image-20181117093739940-2418659.png" alt="image-20181117093739940"></p>
+</code></pre><p><img src="/medias/assets/image-20181117093739940-2418659.png" alt="image-20181117093739940"></p>
 <h2 id="创建一个项目"><a href="#创建一个项目" class="headerlink" title="创建一个项目"></a>创建一个项目</h2><p>我们可以使用下面的命令来创建一个 SPA 的项目：</p>
 <pre><code>vue create 项目名称
 </code></pre><p>创建项目时，会提示我们选择项目中需要使用的组件，我们可以使用默认的配置，也可以自己手动选择需要加载的组件。</p>
 <p>手动选择组件</p>
-<p><img src="../../public/medias/assets/image-20181117095607650-2419767.png" alt="image-20181117095607650"></p>
+<p><img src="/medias/assets/image-20181117095607650-2419767.png" alt="image-20181117095607650"></p>
 <p>勾选需要安装的组件：</p>
-<p><img src="../../public/medias/assets/image-20181117095700506-2419820.png" alt="image-20181117095700506"></p>
+<p><img src="/medias/assets/image-20181117095700506-2419820.png" alt="image-20181117095700506"></p>
 <p>使用路由的 history 模式：</p>
-<p><img src="../../public/medias/assets/image-20181117095724832-2419844.png" alt="image-20181117095724832"></p>
+<p><img src="/medias/assets/image-20181117095724832-2419844.png" alt="image-20181117095724832"></p>
 <p>把配置写到 package.json 文件中：</p>
-<p><img src="../../public/medias/assets/image-20181117095750342-2419870.png" alt="image-20181117095750342"></p>
+<p><img src="/medias/assets/image-20181117095750342-2419870.png" alt="image-20181117095750342"></p>
 <p>不保存本次的配置：</p>
-<p><img src="../../public/medias/assets/image-20181117095810003-2419890.png" alt="image-20181117095810003"></p>
+<p><img src="/medias/assets/image-20181117095810003-2419890.png" alt="image-20181117095810003"></p>
 <h2 id="目录介绍"><a href="#目录介绍" class="headerlink" title="目录介绍"></a>目录介绍</h2><p>我们写的代码都在 src 目录中</p>
 <h2 id="启动项目"><a href="#启动项目" class="headerlink" title="启动项目"></a>启动项目</h2><p>安装成功之后，我们可以进行使用以下指令启动项目：</p>
 <pre><code>cd hello-world   // 进入项目目录
 npm run server   // 启动项目
-</code></pre><p><img src="../../public/medias/assets/image-20181117100041305-2420041.png" alt="image-20181117100041305"></p>
+</code></pre><p><img src="/medias/assets/image-20181117100041305-2420041.png" alt="image-20181117100041305"></p>
 <p>启动之后我们可以在浏览器中访问欢迎页面：</p>
-<p><img src="../../public/medias/assets/image-20181117100106775-2420066.png" alt="image-20181117100106775"></p>
+<p><img src="/medias/assets/image-20181117100106775-2420066.png" alt="image-20181117100106775"></p>
 <h2 id="初始组件-App-vue"><a href="#初始组件-App-vue" class="headerlink" title="初始组件 App.vue"></a>初始组件 App.vue</h2><p>项目启动之后会最先运行 main.js 文件：</p>
 <p>main.js</p>
 <pre class=" language-js"><code class="language-js"><span class="token keyword">import</span> Vue <span class="token keyword">from</span> <span class="token string">'vue'</span>
@@ -454,10 +454,10 @@ Vue<span class="token punctuation">.</span>config<span class="token punctuation"
 <p>所以我们运行之后看到的页面就是 App.vue 组件的内容。 </p>
 <h1 id="Vue-Router"><a href="#Vue-Router" class="headerlink" title="Vue-Router"></a>Vue-Router</h1><p>在 SPA 中，网站内容的变换实际上的组件的切换，为了方便的实现组件间的切换，Vue 框架引入了 <code>vue-router</code> 的个工具来实现多个组件之间的切换。</p>
 <p>官方文档：<a href="https://router.vuejs.org/zh/" target="_blank" rel="noopener">https://router.vuejs.org/zh/</a></p>
-<p><img src="../../public/medias/assets/image-20181117161356170-2442436.png" alt="image-20181117161356170"></p>
+<p><img src="/medias/assets/image-20181117161356170-2442436.png" alt="image-20181117161356170"></p>
 <h2 id="配置路由"><a href="#配置路由" class="headerlink" title="配置路由"></a>配置路由</h2><p>在使用 vue-router 之前，我们需要先配置访问的路径与要显示的组件的对应关系。</p>
 <p>我们需要在 <code>router.js</code> 文件中进行配置。</p>
-<p><img src="../../public/medias/assets/image-20181117161625914-2442585.png" alt="image-20181117161625914"></p>
+<p><img src="/medias/assets/image-20181117161625914-2442585.png" alt="image-20181117161625914"></p>
 <p>router.js</p>
 <p>默认配置了两个路由:</p>
 <p>1、当访问 / 时，显示 Home 组件</p>
@@ -496,7 +496,7 @@ Vue<span class="token punctuation">.</span><span class="token function">use</spa
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
 </code></pre>
 <p>说明：to 属性用来指定点击按钮时要切换到的路由</p>
-<p><img src="../../public/medias/assets/image-20181117175229536-2448349.png" alt="image-20181117175229536"></p>
+<p><img src="/medias/assets/image-20181117175229536-2448349.png" alt="image-20181117175229536"></p>
 <h3 id="router-push"><a href="#router-push" class="headerlink" title="router.push"></a>router.push</h3><p>在 JS 中我们可以使用 <code>this.$router.push</code> 实现跳转。</p>
 <pre class=" language-js"><code class="language-js"><span class="token function">login</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
   console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span> <span class="token string">'登录成功'</span> <span class="token punctuation">)</span>
@@ -534,7 +534,7 @@ Vue<span class="token punctuation">.</span><span class="token function">use</spa
 <span class="token punctuation">]</span>
 </code></pre>
 <p>第一个是 home 路由，所以默认显示的就是 Home 组件的内容：</p>
-<p><img src="../../public/medias/assets/image-20181117180842895-2449322.png" alt="image-20181117180842895"></p>
+<p><img src="/medias/assets/image-20181117180842895-2449322.png" alt="image-20181117180842895"></p>
 <h2 id="案例：添加一个页面"><a href="#案例：添加一个页面" class="headerlink" title="案例：添加一个页面"></a>案例：添加一个页面</h2><p>1、首先在 <code>views</code> 目录下创建 <code>Hello.vue</code> 组件</p>
 <p>views/Hello.vue</p>
 <pre class=" language-vue"><code class="language-vue"><template>
@@ -582,9 +582,9 @@ export default {
 </div>
 </code></pre>
 <p>添加之后保存，保存之后页面会自动刷新：</p>
-<p><img src="../../public/medias/assets/image-20181117181622305-2449782.png" alt="image-20181117181622305"></p>
+<p><img src="/medias/assets/image-20181117181622305-2449782.png" alt="image-20181117181622305"></p>
 <p>点击 hello 按钮，就会在 router-view 标签的位置上切换到 Hello 组件：</p>
-<p><img src="../../public/medias/assets/image-20181117181732185-2449852.png" alt="image-20181117181732185"></p>
+<p><img src="/medias/assets/image-20181117181732185-2449852.png" alt="image-20181117181732185"></p>
 <h2 id="页面组件与功能组件"><a href="#页面组件与功能组件" class="headerlink" title="页面组件与功能组件"></a>页面组件与功能组件</h2><p>组件分为两种：<code>页面组件</code> 和 <code>功能组件</code>。</p>
 <ul>
 <li>页面组件</li>
@@ -595,15 +595,15 @@ export default {
 </ul>
 <p>我们可以将页面中一些独立的小功能制作成组件，这些组件可以被页面组件引入使用，比如：翻页、时间插件等，功能组件保存在  <code>components</code>  目录中，这些组件不能独立显示，只能被包含在一个页面组件中使用。</p>
 <p>页面组件和功能组件的关系：（每个页面就是一个页面组件，每个页面中可以包含多个功能组件）</p>
-<p><img src="../../public/medias/assets/image-20181117191120753-2453080.png" alt="image-20181117191120753"></p>
+<p><img src="/medias/assets/image-20181117191120753-2453080.png" alt="image-20181117191120753"></p>
 <h2 id="使用功能组件"><a href="#使用功能组件" class="headerlink" title="使用功能组件"></a>使用功能组件</h2><p>系统中默认有一个 <code>HelloWorld</code> 组件：</p>
-<p><img src="../../public/medias/assets/image-20181117190241610-2452561.png" alt="image-20181117190241610"></p>
+<p><img src="/medias/assets/image-20181117190241610-2452561.png" alt="image-20181117190241610"></p>
 <p>如果要在页面中使用这个组件需要先使用 <code>import</code> 引入该组件，然后在使用标签使用该组件。</p>
 <p>修改 <code>Hello.vue</code> 页面：</p>
 <p>views/Hello.vue</p>
-<p><img src="../../public/medias/assets/image-20181117190813376-2452893.png" alt="image-20181117190813376"></p>
+<p><img src="/medias/assets/image-20181117190813376-2452893.png" alt="image-20181117190813376"></p>
 <p>效果：</p>
-<p><img src="../../public/medias/assets/image-20181117190856751-2452936.png" alt="image-20181117190856751"></p>
+<p><img src="/medias/assets/image-20181117190856751-2452936.png" alt="image-20181117190856751"></p>
 <h2 id="路由参数"><a href="#路由参数" class="headerlink" title="路由参数"></a>路由参数</h2><p>我们在定义路由时经常需要为路由添加一些参数，比如当点击一件商品进入商品详情页时需要把商品的ID传到页面中。</p>
 <p>我们可以使用以下语法定义带参数的路由：</p>
 <pre class=" language-js"><code class="language-js"><span class="token punctuation">{</span>
@@ -669,10 +669,10 @@ export default {
 <span class="token punctuation">}</span><span class="token punctuation">,</span>
 </code></pre>
 <p>效果是在显示每个页面时都会用 meta 中设置的 title 来初始化页面标题：</p>
-<p><img src="../../public/medias/assets/image-20181118104002573-2508802.png" alt="image-20181118104002573"></p>
+<p><img src="/medias/assets/image-20181118104002573-2508802.png" alt="image-20181118104002573"></p>
 <h2 id="导航守卫"><a href="#导航守卫" class="headerlink" title="导航守卫"></a>导航守卫</h2><p>导航守卫：指在每次路由将要发生变化时，都会被触发的一套钩子函数。</p>
 <p>每当点击一个按钮或者在JS 中调用 this.$route.push 实现页面跳转时，首先要先执行导航守卫定义的函数，当函数中再次调用 next 函数时才可以跳转，否则不可以跳转：</p>
-<p><img src="../../public/medias/assets/image-20181118104639964-2509200.png" alt="image-20181118104639964"></p>
+<p><img src="/medias/assets/image-20181118104639964-2509200.png" alt="image-20181118104639964"></p>
 <p>我们可创建 VueRouter 时使用 <code>beforeEach</code> 定义全局守卫：</p>
 <pre class=" language-js"><code class="language-js"><span class="token keyword">const</span> router <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">VueRouter</span><span class="token punctuation">(</span><span class="token punctuation">{</span> <span class="token operator">...</span> <span class="token punctuation">}</span><span class="token punctuation">)</span>
 
@@ -777,9 +777,9 @@ router<span class="token punctuation">.</span><span class="token function">befor
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>router-view</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>router-view</span><span class="token punctuation">></span></span>
 </code></pre>
 <p>效果：当点击 Hello Tom 和 Hello Jack 按钮时，会切换嵌套组件</p>
-<p><img src="../../public/medias/assets/image-20181118115827326-2513507.png" alt="image-20181118115827326"></p>
+<p><img src="/medias/assets/image-20181118115827326-2513507.png" alt="image-20181118115827326"></p>
 <p>嵌套组件关系图：</p>
-<p><img src="../../public/medias/assets/image-20181118120205288-2513725.png" alt="image-20181118120205288"></p>
+<p><img src="/medias/assets/image-20181118120205288-2513725.png" alt="image-20181118120205288"></p>
 <p>#Vuex</p>
 <h2 id="什么是-Vuex？"><a href="#什么是-Vuex？" class="headerlink" title="什么是 Vuex？"></a>什么是 Vuex？</h2><p>Vuex 是一个专为 Vue.js 应用程序开发的<strong>状态管理模式</strong>。</p>
 <p>Vue 是由数据驱动的，也就是说每个组件的状态都是由数据决定的，比如一个元素的显示与隐藏就是它的两种状态，这两种状态在 vue 中都会由一个数据来管理。</p>
@@ -802,9 +802,9 @@ export default {
 &lt;/script&gt;
 </code></pre><p>也就是说现在这个元素的状态由 isShow 这个数据来决定。</p>
 <p>在实际工作中，我们有时会遇到这样一种情况：我们需要在一个组件中操作另一个组件中元素的状态，比如我们需要在 b.vue 这个组件中设置 a.vue 中元素的显示状态，但 vue 是不允许跨文件操作数据的：</p>
-<p><img src="../../public/medias/assets/image-20181118121712159-2514632.png" alt="image-20181118121712159"></p>
+<p><img src="/medias/assets/image-20181118121712159-2514632.png" alt="image-20181118121712159"></p>
 <p>这时，我们就可以把需要同时被多个组件操作的数据提取出来，由 <code>状态管理器</code> 统一进行管理，在这种模式下，所以的组件都可以操作由 <code>状态管理器</code> 统一管理的数据：</p>
-<p><img src="../../public/medias/assets/image-20181118122039549-2514839.png" alt="image-20181118122039549"></p>
+<p><img src="/medias/assets/image-20181118122039549-2514839.png" alt="image-20181118122039549"></p>
 <p>有了状态管理器，我们就可以在所有组件中管理 a.vue 中图片的显示状态。</p>
 <p>总结：Vuex（状态管理器），就是可以把需要多个组件同时管理的数据管理起来，让所有组件可以共同操作以改变一个组件的状态 。</p>
 <h2 id="使用-Vuex"><a href="#使用-Vuex" class="headerlink" title="使用 Vuex"></a>使用 Vuex</h2><h3 id="定义状态数据与方法"><a href="#定义状态数据与方法" class="headerlink" title="定义状态数据与方法"></a>定义状态数据与方法</h3><p>在使用 Vux 时，首先我们需要先定义状态数据和操作它的方法。 </p>
@@ -817,7 +817,7 @@ export default {
 </ul>
 <p>在最开始构建项目时，如果在安装时勾选了 vuex 组件，那么就已经安装好了 vuex。</p>
 <p>在 <code>store.js</code> 文件中定义 <code>state</code> 和 <code>mutation</code> ：</p>
-<p><img src="../../public/medias/assets/image-20181118122531875-2515131.png" alt="image-20181118122531875"></p>
+<p><img src="/medias/assets/image-20181118122531875-2515131.png" alt="image-20181118122531875"></p>
 <p>在 <code>store.js</code> 文件中定义 state（数据）和mutations（操作数据的函数）：</p>
 <pre class=" language-js"><code class="language-js"><span class="token keyword">import</span> Vue <span class="token keyword">from</span> <span class="token string">'vue'</span>
 <span class="token keyword">import</span> Vuex <span class="token keyword">from</span> <span class="token string">'vuex'</span>
@@ -985,11 +985,11 @@ export default {
 </script>
 </code></pre>
 <p>效果：登录、退出时按钮状态发生变化：</p>
-<p><img src="../../public/medias/assets/image-20181119120150414-2600110.png" alt="image-20181119120150414"></p>
+<p><img src="/medias/assets/image-20181119120150414-2600110.png" alt="image-20181119120150414"></p>
 <h1 id="vue-axios"><a href="#vue-axios" class="headerlink" title="vue-axios"></a>vue-axios</h1><p>官方推荐我们在 vue 中使用 axios 发送 AJAX 的请求。</p>
 <p>在开发 SPA 时，我们需要把 axios 集成进来，我们可以使用 <code>vue-axios</code> 这个包。</p>
 <p>文档地址：<a href="https://www.npmjs.com/package/vue-axios" target="_blank" rel="noopener">https://www.npmjs.com/package/vue-axios</a></p>
-<p><img src="../../public/medias/assets/image-20181118123652167-2515812.png" alt="image-20181118123652167"></p>
+<p><img src="/medias/assets/image-20181118123652167-2515812.png" alt="image-20181118123652167"></p>
 <h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>使用的方法非常的简单：</p>
 <p>1、先安装</p>
 <pre><code>npm install --save axios vue-axios
@@ -1021,15 +1021,15 @@ Vue<span class="token punctuation">.</span><span class="token function">use</spa
 </code></pre>
 <h2 id="案例：通过-axios-请求-easy-mock"><a href="#案例：通过-axios-请求-easy-mock" class="headerlink" title="案例：通过 axios 请求 easy-mock"></a>案例：通过 axios 请求 easy-mock</h2><p>easy-mock 是一个第三方数据模拟平台，我们可以在该平台上编写接口、模拟数据，然后在项目中使用 axios 请求接口获取数据。</p>
 <p>1、注册、登录 easy-mock 并添加一个新的项目</p>
-<p><img src="../../public/medias/assets/image-20181118124107279-2516067.png" alt="image-20181118124107279"></p>
+<p><img src="/medias/assets/image-20181118124107279-2516067.png" alt="image-20181118124107279"></p>
 <p>输入项目名称和基础地址：</p>
-<p><img src="../../public/medias/assets/image-20181118124340180-2516220.png" alt="image-20181118124340180"></p>
+<p><img src="/medias/assets/image-20181118124340180-2516220.png" alt="image-20181118124340180"></p>
 <p>添加成功之后，点击进入该项目：</p>
-<p><img src="../../public/medias/assets/image-20181118124411837-2516251.png" alt="image-20181118124411837"></p>
+<p><img src="/medias/assets/image-20181118124411837-2516251.png" alt="image-20181118124411837"></p>
 <p>2、创建接口</p>
-<p><img src="../../public/medias/assets/image-20181118124446480-2516286.png" alt="image-20181118124446480"></p>
+<p><img src="/medias/assets/image-20181118124446480-2516286.png" alt="image-20181118124446480"></p>
 <p>输入模拟数据的语法：</p>
-<p><img src="../../public/medias/assets/image-20181118125035410-2516635.png" alt="image-20181118125035410"></p>
+<p><img src="/medias/assets/image-20181118125035410-2516635.png" alt="image-20181118125035410"></p>
 <p>3、在 main.js 中设置接口基地址</p>
 <p>main.js</p>
 <pre class=" language-js"><code class="language-js"><span class="token keyword">import</span> Vue <span class="token keyword">from</span> <span class="token string">'vue'</span>
@@ -1070,7 +1070,7 @@ Vue<span class="token punctuation">.</span>axios<span class="token punctuation">
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">></span></span>
 </code></pre>
 <p>效果：</p>
-<p><img src="../../public/medias/assets/image-20181118125807214-2517087.png" alt="image-20181118125807214"></p>
+<p><img src="/medias/assets/image-20181118125807214-2517087.png" alt="image-20181118125807214"></p>
 
             </div>
             <hr>
