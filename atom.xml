@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://Resolute-qqw.github.io/"/>
-  <updated>2018-12-20T00:16:18.017Z</updated>
+  <updated>2018-12-20T00:18:26.489Z</updated>
   <id>https://Resolute-qqw.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://Resolute-qqw.github.io/2018/12/19/php-mian-shi-ti/"/>
     <id>https://Resolute-qqw.github.io/2018/12/19/php-mian-shi-ti/</id>
     <published>2018-12-19T12:40:00.000Z</published>
-    <updated>2018-12-20T00:16:18.017Z</updated>
+    <updated>2018-12-20T00:18:26.489Z</updated>
     
     <summary type="html">
     
@@ -46,28 +46,16 @@
   </entry>
   
   <entry>
-    <title>Vue-SPA</title>
+    <title></title>
     <link href="https://Resolute-qqw.github.io/2018/11/29/vue-spa/"/>
     <id>https://Resolute-qqw.github.io/2018/11/29/vue-spa/</id>
-    <published>2018-11-29T07:43:00.000Z</published>
-    <updated>2018-11-30T03:28:08.789Z</updated>
+    <published>2018-11-29T07:38:14.366Z</published>
+    <updated>2018-12-20T00:19:09.448Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h1 id=&quot;SPA&quot;&gt;&lt;a href=&quot;#SPA&quot; class=&quot;headerlink&quot; title=&quot;SPA&quot;&gt;&lt;/a&gt;SPA&lt;/h1&gt;&lt;h2 id=&quot;什么是SPA？&quot;&gt;&lt;a href=&quot;#什么是SPA？&quot; class=&quot;headerlink&quot;
-        
-      
-    
     </summary>
     
-      <category term="前端" scheme="https://Resolute-qqw.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="Vue" scheme="https://Resolute-qqw.github.io/tags/Vue/"/>
     
   </entry>
   
