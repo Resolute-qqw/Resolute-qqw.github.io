@@ -3,11 +3,36 @@
   
     
     <entry>
-      <title>常问的PHP面试题</title>
+      <title></title>
+      <link href="/2018/12/25/javascript-mian-shi-ti/"/>
+      <url>/2018/12/25/javascript-mian-shi-ti/</url>
+      
+        <content type="html"><![CDATA[<h1 id="JavaScript高级题"><a href="#JavaScript高级题" class="headerlink" title="JavaScript高级题"></a>JavaScript高级题</h1><h2 id="1-Java和JavaScript是什么关系？"><a href="#1-Java和JavaScript是什么关系？" class="headerlink" title="1.Java和JavaScript是什么关系？"></a>1.Java和JavaScript是什么关系？</h2><p>就像雷锋和雷霆塔的关系一样。</p><p>一般认为，当时 Netscape 之所以将 LiveScript 命名为 JavaScript，是因为 Java 是当时最流行的编程语言，带有 “Java” 的名字有助于这门新生语言的传播。</p><h2 id="2-ES6听说过吗？和JavaScript是什么关系？ES2015听说过吗？都是什么关系？"><a href="#2-ES6听说过吗？和JavaScript是什么关系？ES2015听说过吗？都是什么关系？" class="headerlink" title="2.ES6听说过吗？和JavaScript是什么关系？ES2015听说过吗？都是什么关系？"></a>2.ES6听说过吗？和JavaScript是什么关系？ES2015听说过吗？都是什么关系？</h2><p>CMAScript和JavaScript的关系是，前者是后者的规格，后者是前者的一种实现（另外的ECMAScript方言还有Jscript和ActionScript）。日常场合，这两个词是可以互换的。</p><p>ES6既是一个历史名词，也是一个泛指，含义是5.1版以后的JavaScript的下一代标准</p><h2 id="3-如何把变量转成数字？转成布尔？转成字符串？"><a href="#3-如何把变量转成数字？转成布尔？转成字符串？" class="headerlink" title="3.如何把变量转成数字？转成布尔？转成字符串？"></a>3.如何把变量转成数字？转成布尔？转成字符串？</h2><h3 id="转数字"><a href="#转数字" class="headerlink" title="转数字:"></a>转数字:</h3><p>​    parseInt: 如果前几个字符可以是数字可以转成数字</p><p>​    Number:将整体转成数字( 例:123abc 不能转)</p><h3 id="转字符串"><a href="#转字符串" class="headerlink" title="转字符串:"></a>转字符串:</h3><p>​    value.toString()</p><p>​    “”+value</p><p>​    String(value)</p><h2 id="4-var-和-let-是干什么用的？什么区别？"><a href="#4-var-和-let-是干什么用的？什么区别？" class="headerlink" title="4.var 和 let 是干什么用的？什么区别？"></a>4.var 和 let 是干什么用的？什么区别？</h2><h3 id="var"><a href="#var" class="headerlink" title="var:"></a>var:</h3><p>​    可以定义 局部变量和 全局变量</p><p>​    如果在函数中定义变量时没有写 var 或者 let 那么变量将会变成全局变量</p><h3 id="let"><a href="#let" class="headerlink" title="let:"></a>let:</h3><p>​    可以定义 块级变量 、局部变量、和全局变量</p><p>​    let 可以定义块级变量</p><h3 id="区别"><a href="#区别" class="headerlink" title="区别"></a>区别</h3><ul><li>let : 变量只能声明一次</li><li>var : 变量可以多次声明</li></ul><h2 id="5-在一个函数中，如果定义变量时没有添加-var-会出现什么情况？"><a href="#5-在一个函数中，如果定义变量时没有添加-var-会出现什么情况？" class="headerlink" title="5.在一个函数中，如果定义变量时没有添加 var 会出现什么情况？"></a>5.在一个函数中，如果定义变量时没有添加 var 会出现什么情况？</h2><p>有的话应用于作用域,没有的话默认为全局变量</p><h2 id="6-什么是内存泄漏？"><a href="#6-什么是内存泄漏？" class="headerlink" title="6.什么是内存泄漏？"></a>6.什么是内存泄漏？</h2><p><img src="\medias\assets\image-20181224145842521-5634722.png" alt=""></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 面试题 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 面试题 </tag>
+            
+            <tag> JavaScript </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title></title>
       <link href="/2018/12/19/php-mian-shi-ti/"/>
       <url>/2018/12/19/php-mian-shi-ti/</url>
       
-        <content type="html"><![CDATA[<h1 id="PHP经典-面试题"><a href="#PHP经典-面试题" class="headerlink" title="PHP经典 面试题"></a>PHP经典 面试题</h1><h2 id="谈谈对面向对象的理解"><a href="#谈谈对面向对象的理解" class="headerlink" title="谈谈对面向对象的理解"></a>谈谈对面向对象的理解</h2><p>面向对象简称OOP，对象就是人对各种具体事物抽象之后的概念。人们每天都在跟各种对象打交道，就比如:</p><p>一台电脑而对象有很多特性：内存，宽度，颜色…这些就是属性，<br>而对象还有很多功能：听歌，看视频，打电话…这些就是方法，可以看成是一个函数<br>但是对象不是独立的，还有继承性。在编程的过程中，我们可以把所有问题都看成是一个对象，<br>但对象实际上就是一组数据的集合，并且都已经被命名，这些数据的根据就是对象的属性，可以被访问。<br>但是如果要访问一个外部的对象我们就必须要先将它引进来。</p><h2 id="http协议状态码"><a href="#http协议状态码" class="headerlink" title="http协议状态码"></a>http协议状态码</h2><ul><li>100-199 用于指定客户端相应的某些动作。</li><li>200-299 用于表示请求成功。</li><li>300-399 用于已经移动的文件并且常被包含在定位头信息中指定新的地址信息。</li><li>400-499 用于指出客户端的错误。</li><li>500-599 用于指出服务器错误。</li></ul><h2 id="谈谈你对-PHP-命名空间的理解"><a href="#谈谈你对-PHP-命名空间的理解" class="headerlink" title="谈谈你对 PHP 命名空间的理解"></a>谈谈你对 PHP 命名空间的理解</h2><p>命名空间是一种封装事物的抽象方法，定义的空间是虚拟的，不是真实存在的。主要是用来解决类、函数、常量名字的冲突问题。</p><h2 id="请谈谈您对-MVC-的理解？"><a href="#请谈谈您对-MVC-的理解？" class="headerlink" title="请谈谈您对 MVC 的理解？"></a>请谈谈您对 MVC 的理解？</h2><p>MVC 是一个设计模式，它强制性的使应用程序的输入、处理和输出分开。</p><p>由模型(model),视图(view),控制器(controller) 完成的应用程序</p><p>视图是用户看到并与之交互的界面，模型表示企业数据和业务规则，控制器接受用户的输入并调用模型和视图去完成用户的需求。</p><h2 id="网站高并发，大流量访问的处理及解决方法"><a href="#网站高并发，大流量访问的处理及解决方法" class="headerlink" title="网站高并发，大流量访问的处理及解决方法"></a>网站高并发，大流量访问的处理及解决方法</h2><p><strong>网站优化：</strong></p><p>代码：  代码优化，</p><p><strong>数据库的优化：</strong></p><p>​    表结构优化；SQL优化；冷热数据的优化；nosql；分表分库</p><p><strong>文件优化：</strong></p><p>文件打包压缩 ；CDN ；OSS  </p><p><strong>服务器优化：</strong></p><p>负载均衡；主从复制</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="PHP经典-面试题"><a href="#PHP经典-面试题" class="headerlink" title="PHP经典 面试题"></a>PHP经典 面试题</h1><h2 id="夯实"><a href="#夯实" class="headerlink" title="夯实"></a>夯实</h2><h2 id="进阶"><a href="#进阶" class="headerlink" title="进阶"></a>进阶</h2><h2 id="谈谈对面向对象的理解"><a href="#谈谈对面向对象的理解" class="headerlink" title="谈谈对面向对象的理解"></a>谈谈对面向对象的理解</h2><p>面向对象简称OOP，对象就是人对各种具体事物抽象之后的概念。人们每天都在跟各种对象打交道，就比如:</p><p>一台电脑而对象有很多特性：内存，宽度，颜色…这些就是属性，<br>而对象还有很多功能：听歌，看视频，打电话…这些就是方法，可以看成是一个函数<br>但是对象不是独立的，还有继承性。在编程的过程中，我们可以把所有问题都看成是一个对象，<br>但对象实际上就是一组数据的集合，并且都已经被命名，这些数据的根据就是对象的属性，可以被访问。<br>但是如果要访问一个外部的对象我们就必须要先将它引进来。</p><h2 id="http协议状态码"><a href="#http协议状态码" class="headerlink" title="http协议状态码"></a>http协议状态码</h2><ul><li>100-199 消息系列。</li><li>200-299 成功系列。</li><li>300-399 重定向系列。</li><li>400-499 请求错误系列。</li><li>500-599 服务器端错误系列。</li></ul><h2 id="谈谈你对-PHP-命名空间的理解"><a href="#谈谈你对-PHP-命名空间的理解" class="headerlink" title="谈谈你对 PHP 命名空间的理解"></a>谈谈你对 PHP 命名空间的理解</h2><p>命名空间是一种封装事物的抽象方法，定义的空间是虚拟的，不是真实存在的。主要是用来解决类、函数、常量名字的冲突问题。</p><h2 id="请谈谈您对-MVC-的理解？"><a href="#请谈谈您对-MVC-的理解？" class="headerlink" title="请谈谈您对 MVC 的理解？"></a>请谈谈您对 MVC 的理解？</h2><p>MVC 是一个设计模式，它强制性的使应用程序的输入、处理和输出分开。</p><p>由模型(model),视图(view),控制器(controller) 完成的应用程序</p><p>视图是用户看到并与之交互的界面，模型表示企业数据和业务规则，控制器接受用户的输入并调用模型和视图去完成用户的需求。</p><h2 id="网站高并发，大流量访问的处理及解决方法"><a href="#网站高并发，大流量访问的处理及解决方法" class="headerlink" title="网站高并发，大流量访问的处理及解决方法"></a>网站高并发，大流量访问的处理及解决方法</h2><p><strong>网站优化：</strong></p><p>代码：  代码优化，</p><p><strong>数据库的优化：</strong></p><p>​    表结构优化；SQL优化；冷热数据的优化；nosql；分表分库</p><p><strong>文件优化：</strong></p><p>文件打包压缩 ；CDN ；OSS  </p><p><strong>服务器优化：</strong></p><p>负载均衡；主从复制</p>]]></content>
       
       
       <categories>
