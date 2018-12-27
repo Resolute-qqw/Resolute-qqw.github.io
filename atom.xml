@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://Resolute-qqw.github.io/"/>
-  <updated>2018-12-25T10:08:48.166Z</updated>
+  <updated>2018-12-27T12:37:59.749Z</updated>
   <id>https://Resolute-qqw.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaScript高级题</title>
+    <link href="https://Resolute-qqw.github.io/2018/12/25/get-he-post-liang-chong-ji-ben-qing-qiu-fang-fa-de-qu-bie/"/>
+    <id>https://Resolute-qqw.github.io/2018/12/25/get-he-post-liang-chong-ji-ben-qing-qiu-fang-fa-de-qu-bie/</id>
+    <published>2018-12-25T07:08:55.000Z</published>
+    <updated>2018-12-27T12:37:59.749Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;GET和POST是HTTP请求的两种基本方法，要说它们的区别，接触过WEB开发的人都能说出一二。&lt;/p&gt;
+&lt;p&gt;最直观的区别就是GET把参数包含在URL中，POST通过request
+        
+      
+    
+    </summary>
+    
+      <category term="面试题" scheme="https://Resolute-qqw.github.io/categories/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
+    
+      <category term="JavaScript" scheme="https://Resolute-qqw.github.io/tags/JavaScript/"/>
+    
+      <category term="面试题" scheme="https://Resolute-qqw.github.io/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
+  </entry>
   
   <entry>
     <title>JavaScript高级题</title>
