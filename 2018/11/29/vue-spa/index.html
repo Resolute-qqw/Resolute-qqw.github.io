@@ -338,41 +338,6 @@
 <p>1、html：所有的 html 代码必须要写在 <code>&lt;template&gt;...&lt;/template&gt;</code> 标签中</p>
 <p>2、css：所有的 css 代码写在 <code>style...&lt;style&gt;</code> 标签中</p>
 <p>3、js：所有 js 代码写在 <code>&lt;script&gt;...&lt;/script&gt;</code> 标签中</p>
-<p>以下是一个 .vue 文件中的内容：</p>
-<pre class=" language-vue"><code class="language-vue"><template>
-<div>
-    <h1>
-        Hello World ! 我是 {{ tome }}
-    </h1>    
-    <input type="button" @click="sayHi" value="sayHi">
-</div>
-</template>
-
-<style>
-body{
-    background-color: #EEE;
-}
-h1 {
-    font-size: 30px;
-}
-</style>
-
-<script>
-export default {
-    data(){
-        return {
-            name:'tom'
-        }
-    },
-    methods:{
-        sayHi(){
-            alert("Hi")
-        }
-    }
-}
-</script>
-
-</code></pre>
 <h2 id="SPA-中的-Vue"><a href="#SPA-中的-Vue" class="headerlink" title="SPA 中的 Vue"></a>SPA 中的 Vue</h2><p>SPA 中的 Vue 和我们之前学习过的 Vue 的用法大体上是一致的，不过也有一些不一样的地方需要注意一下：</p>
 <ul>
 <li>data 必须是一个函数</li>
