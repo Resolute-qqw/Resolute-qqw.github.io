@@ -339,41 +339,40 @@
 <p>2、css：所有的 css 代码写在 <code>style...&lt;style&gt;</code> 标签中</p>
 <p>3、js：所有 js 代码写在 <code>&lt;script&gt;...&lt;/script&gt;</code> 标签中</p>
 <p>以下是一个 .vue 文件中的内容：</p>
-<pre class=" language-vue"><code class="language-vue"><template>
-<div>
-    <h1>
+<pre><code>&lt;template&gt;
+&lt;div&gt;
+    &lt;h1&gt;
         Hello World ! 我是 {{ tome }}
-    </h1>    
-    <input type="button" @click="sayHi" value="sayHi">
-</div>
-</template>
+    &lt;/h1&gt;    
+    &lt;input type=&quot;button&quot; @click=&quot;sayHi&quot; value=&quot;sayHi&quot;&gt;
+&lt;/div&gt;
+&lt;/template&gt;
 
-<style>
+&lt;style&gt;
 body{
     background-color: #EEE;
 }
 h1 {
     font-size: 30px;
 }
-</style>
+&lt;/style&gt;
 
-<script>
+&lt;script&gt;
 export default {
     data(){
         return {
-            name:'tom'
+            name:&#39;tom&#39;
         }
     },
     methods:{
         sayHi(){
-            alert("Hi")
+            alert(&quot;Hi&quot;)
         }
     }
 }
-</script>
+&lt;/script&gt;
 
-</code></pre>
-<h2 id="SPA-中的-Vue"><a href="#SPA-中的-Vue" class="headerlink" title="SPA 中的 Vue"></a>SPA 中的 Vue</h2><p>SPA 中的 Vue 和我们之前学习过的 Vue 的用法大体上是一致的，不过也有一些不一样的地方需要注意一下：</p>
+</code></pre><h2 id="SPA-中的-Vue"><a href="#SPA-中的-Vue" class="headerlink" title="SPA 中的 Vue"></a>SPA 中的 Vue</h2><p>SPA 中的 Vue 和我们之前学习过的 Vue 的用法大体上是一致的，不过也有一些不一样的地方需要注意一下：</p>
 <ul>
 <li>data 必须是一个函数</li>
 </ul>
