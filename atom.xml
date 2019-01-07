@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://Resolute-qqw.github.io/"/>
-  <updated>2018-12-27T13:05:41.600Z</updated>
+  <updated>2019-01-07T12:58:37.076Z</updated>
   <id>https://Resolute-qqw.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>workerman 简单入门</title>
+    <link href="https://Resolute-qqw.github.io/2019/01/07/workerman/"/>
+    <id>https://Resolute-qqw.github.io/2019/01/07/workerman/</id>
+    <published>2019-01-07T12:54:00.000Z</published>
+    <updated>2019-01-07T12:58:37.076Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;WebSocket&quot;&gt;&lt;a href=&quot;#WebSocket&quot; class=&quot;headerlink&quot; title=&quot;WebSocket&quot;&gt;&lt;/a&gt;WebSocket&lt;/h1&gt;&lt;h2 id=&quot;什么是-WebSocket&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="前端" scheme="https://Resolute-qqw.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="workerman" scheme="https://Resolute-qqw.github.io/tags/workerman/"/>
+    
+      <category term="WebSocket" scheme="https://Resolute-qqw.github.io/tags/WebSocket/"/>
+    
+  </entry>
   
   <entry>
     <title>GET和POST两种基本请求方法的区别</title>
@@ -39,9 +67,9 @@
       <category term="面试题" scheme="https://Resolute-qqw.github.io/categories/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
     
     
-      <category term="web" scheme="https://Resolute-qqw.github.io/tags/web/"/>
-    
       <category term="面试题" scheme="https://Resolute-qqw.github.io/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
+      <category term="web" scheme="https://Resolute-qqw.github.io/tags/web/"/>
     
   </entry>
   
@@ -95,9 +123,9 @@
       <category term="面试题" scheme="https://Resolute-qqw.github.io/categories/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
     
     
-      <category term="面试题" scheme="https://Resolute-qqw.github.io/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
-    
       <category term="php" scheme="https://Resolute-qqw.github.io/tags/php/"/>
+    
+      <category term="面试题" scheme="https://Resolute-qqw.github.io/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
     
   </entry>
   
