@@ -67,9 +67,9 @@
       <category term="面试题" scheme="https://Resolute-qqw.github.io/categories/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
     
     
-      <category term="面试题" scheme="https://Resolute-qqw.github.io/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
-    
       <category term="web" scheme="https://Resolute-qqw.github.io/tags/web/"/>
+    
+      <category term="面试题" scheme="https://Resolute-qqw.github.io/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
     
   </entry>
   
@@ -102,6 +102,34 @@
   </entry>
   
   <entry>
+    <title>使用微信支付接口的方法</title>
+    <link href="https://Resolute-qqw.github.io/2018/12/19/wei-xin-zhi-fu/"/>
+    <id>https://Resolute-qqw.github.io/2018/12/19/wei-xin-zhi-fu/</id>
+    <published>2018-12-19T13:13:00.000Z</published>
+    <updated>2019-01-07T13:16:44.525Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;微信支付&quot;&gt;&lt;a href=&quot;#微信支付&quot; class=&quot;headerlink&quot; title=&quot;微信支付&quot;&gt;&lt;/a&gt;微信支付&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;/medias/assets/image-20180828171032250.png&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="支付接口" scheme="https://Resolute-qqw.github.io/categories/%E6%94%AF%E4%BB%98%E6%8E%A5%E5%8F%A3/"/>
+    
+    
+      <category term="微信" scheme="https://Resolute-qqw.github.io/tags/%E5%BE%AE%E4%BF%A1/"/>
+    
+      <category term="支付" scheme="https://Resolute-qqw.github.io/tags/%E6%94%AF%E4%BB%98/"/>
+    
+  </entry>
+  
+  <entry>
     <title>常问的PHP面试题</title>
     <link href="https://Resolute-qqw.github.io/2018/12/19/php-mian-shi-ti/"/>
     <id>https://Resolute-qqw.github.io/2018/12/19/php-mian-shi-ti/</id>
@@ -123,9 +151,9 @@
       <category term="面试题" scheme="https://Resolute-qqw.github.io/categories/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
     
     
-      <category term="php" scheme="https://Resolute-qqw.github.io/tags/php/"/>
-    
       <category term="面试题" scheme="https://Resolute-qqw.github.io/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
+      <category term="php" scheme="https://Resolute-qqw.github.io/tags/php/"/>
     
   </entry>
   
@@ -134,7 +162,7 @@
     <link href="https://Resolute-qqw.github.io/2018/11/29/vue-spa/"/>
     <id>https://Resolute-qqw.github.io/2018/11/29/vue-spa/</id>
     <published>2018-11-29T07:43:00.000Z</published>
-    <updated>2019-01-04T12:28:00.819Z</updated>
+    <updated>2019-01-07T13:10:15.974Z</updated>
     
     <summary type="html">
     
