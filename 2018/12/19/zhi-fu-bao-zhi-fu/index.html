@@ -311,41 +311,41 @@ curlcurl 是一个比较常用的小软件，它可以用来在命令行中发�
 <h2 id="curl"><a href="#curl" class="headerlink" title="curl"></a>curl</h2><p>curl 是一个比较常用的小软件，它可以用来在命令行中发送 GET 、POST 等请求，在开发时非常有用。</p>
 <p>可以在命令行中输入 <code>curl</code>  来查看是否电脑已经安装了该软件，如果没有安装可以下载安装。</p>
 <p>如果已经安装了会提示以下信息：（注意是cmd中执行，不是 powershell中~）</p>
-<p><img src="/meidas/assets/image-20180906152846884.png" alt="image-20180906152846884"></p>
+<p><img src="/medias/assets/image-20180906152846884.png" alt="image-20180906152846884"></p>
 <p>curl下载地址：<a href="https://curl.haxx.se/download.html，如下图所示：*" target="_blank" rel="noopener">https://curl.haxx.se/download.html，如下图所示：*</a>*</p>
-<p><img src="/meidas/assets/image-20180828170832374.png" alt="image-20180828170832374"></p>
+<p><img src="/medias/assets/image-20180828170832374.png" alt="image-20180828170832374"></p>
 <h2 id="安装扩展包"><a href="#安装扩展包" class="headerlink" title="安装扩展包"></a>安装扩展包</h2><p>专注 <code>支付宝</code> 和 <code>微信支付</code> 的支付扩展包。</p>
 <pre><code>composer require yansongda/pay
 </code></pre><p>使用文档：<a href="https://packagist.org/packages/yansongda/pay" target="_blank" rel="noopener">https://packagist.org/packages/yansongda/pay</a></p>
-<h1 id="支付宝"><a href="#支付宝" class="headerlink" title="支付宝"></a>支付宝</h1><p><img src="/meidas/assets/image-20180828162125062.png" alt="image-20180828162125062"></p>
+<h1 id="支付宝"><a href="#支付宝" class="headerlink" title="支付宝"></a>支付宝</h1><p><img src="/medias/assets/image-20180828162125062.png" alt="image-20180828162125062"></p>
 <h3 id="获取沙箱参数"><a href="#获取沙箱参数" class="headerlink" title="获取沙箱参数"></a>获取沙箱参数</h3><p>支付宝有一个沙箱环境，可以让我们不需要拥有真实的商家账号就可以进行支付的开发测试。 </p>
 <p>首先到支付定的开放平台中注册账号 <a href="https://open.alipay.com/platform/home.htm，用你的支付宝账号登录并找到沙箱环境：" target="_blank" rel="noopener">https://open.alipay.com/platform/home.htm，用你的支付宝账号登录并找到沙箱环境：</a></p>
-<p><img src="/meidas/assets/image-20180828162720396.png" alt="image-20180828162720396"></p>
+<p><img src="/medias/assets/image-20180828162720396.png" alt="image-20180828162720396"></p>
 <p>进入沙箱之后，我们可以得到 APPID，然后点击设置应用公钥：</p>
-<p><img src="/meidas/assets/image-20180828162804856.png" alt="image-20180828162804856"></p>
+<p><img src="/medias/assets/image-20180828162804856.png" alt="image-20180828162804856"></p>
 <p>点击设置应用公钥：</p>
-<p><img src="/meidas/assets/image-20180828162840788.png" alt="image-20180828162840788"></p>
+<p><img src="/medias/assets/image-20180828162840788.png" alt="image-20180828162840788"></p>
 <p>点击设置公钥按钮：</p>
-<p><img src="/meidas/assets/image-20180828162950239.png" alt="image-20180828162950239"></p>
+<p><img src="/medias/assets/image-20180828162950239.png" alt="image-20180828162950239"></p>
 <p>点击 <code>查看密钥生成方法</code> 链接之后会跳转到一篇文档，里面可以下载 RSA 密钥生成工具，请根据自己的系统下载对应的版本并打开：</p>
-<p><img src="/meidas/assets/image-20180828163039944.png" alt="image-20180828163039944"></p>
+<p><img src="/medias/assets/image-20180828163039944.png" alt="image-20180828163039944"></p>
 <p>复制公钥内容到框中：</p>
-<p><img src="/meidas/assets/image-20180828163118867.png" alt="image-20180828163118867"></p>
+<p><img src="/medias/assets/image-20180828163118867.png" alt="image-20180828163118867"></p>
 <p>点击保存之后，查看<code>支付宝公钥</code>：</p>
-<p><img src="/meidas/assets/image-20180828163148944.png" alt="image-20180828163148944"></p>
+<p><img src="/medias/assets/image-20180828163148944.png" alt="image-20180828163148944"></p>
 <p>复制这段支付宝公钥：</p>
-<p><img src="/meidas/assets/image-20180828163213391.png" alt="image-20180828163213391"></p>
+<p><img src="/medias/assets/image-20180828163213391.png" alt="image-20180828163213391"></p>
 <p>到此我们得到了以下三个参数，我们在代码里面要使用！！：</p>
 <p>APPID:</p>
-<p><img src="/meidas/assets/image-20180907105411040.png" alt="image-20180907105411040"></p>
+<p><img src="/medias/assets/image-20180907105411040.png" alt="image-20180907105411040"></p>
 <pre><code>2016091600527626
 </code></pre><p><code>商户应用</code>私钥：</p>
-<p><img src="/meidas/assets/image-20180907105431202.png" alt="image-20180907105431202"></p>
+<p><img src="/medias/assets/image-20180907105431202.png" alt="image-20180907105431202"></p>
 <pre><code>MIIEpAIBAAKCAQEAuoy1DMW1bDvNQc7CZOALVRERL+wcVV3UhbP59ICtpBx+zGiEsDuOmAFAcEPDwGNk4NhXdAkN9n/1jGiSZaKwfkBNU3tmyuYVLH0shgGzWL/S4XG51EwonUH2a6rVaI2OaiAjUXcYPfxbnpo/52PwiF8B/bfezUp+G6pjC0UbxruO2tE8nyfCq0cz1qYNGBulmECPyG5y69ECtiwVvw/+cK3rm+lxlSCUXp5cqB+HaGgd+trXLOJxZONd/fPkmKEts1pllCkTsDTxT77O0ZLtM5+D1e7VE68OMiIQvNRyl1p+HNQjsUNVX62cNfRb3cjtET5wqUT56AOeJgl9qVDDFwIDAQABAoIBAQCoy9C2sd6rBKGBPjifVipq2nqWxioNBE3cfTFaj2SO7km9Y4VMgVdRKzDHZEmnt0f8O0VGdTrxJG9mkOiGlmLkmgJd23bzeKUIEGtNBhTl5QxHecQP2KmXQaxbV8SqSgvm8xWCDSUeUU4FgMT59nAatPz0On+beiAJoG7mL64mbtuW8YsUB0wIFhTwe1T1+Q9qTO+YEh4ejteXZc1flGahjGDJbzCWwErmMILAAopiNaLNDcgx3AXeqf+ddP6jK32MikXhddYSDogX7/BXIMkOg7co5gXCG/aXMueMKsuR2wWC+pUZfxl7VBM8IEBfR8ptq9DIE8QcfMWYml4qpPNhAoGBAOZ0twlxxPGthlJ1q1EWdUy6qGD/yzHvVY0TEW4dXTJNqBv4GyF0sQktDRG0FCQtqk1lzbOHcbsEz737xwn9EpuJGWqFB4gy3Z1e77Dr5qM6bXScm5HSPX7MfC99H6cu4uxogrGLqlgE/S7OO0bNFEU4nFNcaASqZjcH9C82P1FTAoGBAM86If8Sk1tYm/TqT8p9IB2ww8+mNwZo7AVrTgYvmampRPfDX0UrmrlkdZLJVbdxYLNexmu+AwsvS3XXknWNyPf6UXqELPYNO9y+0VNusNRl03UabW4Czf5QWZPSlC0bu8xbBjVUA3O761XMfBbPtS7/X41wn3/4w1T2eGVyPjqtAoGAOMiBYR5bPIFZG3BK6gvykxla66ubUY57MeuE2/D4SbDAv0N+y9uI0436LmaEn/VwhOmUqaux5jblSRaEkH1+3DwHuytUE8cUu/XscVdu2MFIvvbnjiKTbG7OGpVl+zeeSknmCgEz08RG7gV6rZNSb0vnmNKn/p5N2TlofUmMiGkCgYApXKgWeoWxEOGoI/CjMRBs/LBIzRtkiyK4/i8Hqw6Xv7KFZZipfMeYQ4X4M3mJcPblNoCSVs3SuLDuJ4YTMqavYGZM9v7macPODsRHS+u9qUlosUqwT50AKteGWty6mDOG2ZBGqqs5uYOCj5shDnpSlCRlXdpoN6X9Wmizjvb+zQKBgQCJl5ppVH363lV6cY1dVY80oEfLHBaiMom3O/N5WcDe6G4rulBvJYtZeTF2A/EoYozsPz25MrtEFCwvluNFoH36U6hg5HL8HiXYdbp442KY/GMWLYJsSpWo737fmU5hlSqrqzOYy+ukGX/toKgBAMC72UY2S4Z5gaywlUA9GiNPHg==
 </code></pre><p>支付宝公钥：（注意：这里是支付宝公钥！！！！！！ 不是商户应用公钥）</p>
-<p><img src="/meidas/assets/image-20180907105457043.png" alt="image-20180907105457043"></p>
+<p><img src="/medias/assets/image-20180907105457043.png" alt="image-20180907105457043"></p>
 <pre><code>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzcDiUmAFgiaBi2PzVpP+GdyPNLQuja3B26Z/3tcDDiuWbndLaA4o45J+Xj6KZ2GgQpZe5a9ZGoasas7YLGxPA5Z91eTooqmVwfPsaTUx4JHJlhiS+3R4738kA7BCXvmVKAHjG52ExwjwM4XWh+zN0jldPaS+4EtZnCrciDQtUk7IU7hbjDwqe6mUzwpI0zgyGQ0CPvug1VJBLdRgOlIaGNwVn1WbwqkrXYkHXMKHZhgT/WF4UTr+X4TpFIyA24ZVl2BtLchvFvf9C0+Ui8pWjfxjD6uE1VHtVQNEJ4MIaisfXpDMgQgkqClYDQN/udub7mq/CQUGsm9ZN5SUJEUXLwIDAQAB
-</code></pre><h2 id="支付流程"><a href="#支付流程" class="headerlink" title="支付流程"></a>支付流程</h2><p><img src="/meidas/assets/image-20180906155807746.png" alt="image-20180906155807746"></p>
+</code></pre><h2 id="支付流程"><a href="#支付流程" class="headerlink" title="支付流程"></a>支付流程</h2><p><img src="/medias/assets/image-20180906155807746.png" alt="image-20180906155807746"></p>
 <h2 id="立即支付"><a href="#立即支付" class="headerlink" title="立即支付"></a>立即支付</h2><p>创建支付控制器：</p>
 <p>controllers/AlipayController.php</p>
 <pre class=" language-php"><code class="language-php"><span class="token delimiter">&lt;?php</span>
@@ -412,9 +412,9 @@ curlcurl 是一个比较常用的小软件，它可以用来在命令行中发�
 <span class="token punctuation">}</span>
 </code></pre>
 <p>浏览器中访问 <a href="http://localhost:9999/aliypay/pay" target="_blank" rel="noopener">http://localhost:9999/aliypay/pay</a> 跳转到支付宝网站：</p>
-<p><img src="/meidas/assets/image-20180906163609195.png" alt="image-20180906163609195"></p>
+<p><img src="/medias/assets/image-20180906163609195.png" alt="image-20180906163609195"></p>
 <p>使用沙箱账号完成支付：</p>
-<p><img src="/meidas/assets/image-20180828163720996.png" alt="image-20180828163720996"></p>
+<p><img src="/medias/assets/image-20180828163720996.png" alt="image-20180828163720996"></p>
 <h2 id="支付通知"><a href="#支付通知" class="headerlink" title="支付通知"></a>支付通知</h2><p>在支付宝网站当中完成支付之后，支付宝网站会做两种事件：</p>
 <ol>
 <li>跳转回我们的网站</li>
@@ -434,9 +434,9 @@ curlcurl 是一个比较常用的小软件，它可以用来在命令行中发�
 <p>1、创建新的接收地址</p>
 <p>首先我们需要先创建网站创建一个用来接收通知的地址。</p>
 <p>访问 <a href="https://requestbin.fullcontact.com/" target="_blank" rel="noopener">https://requestbin.fullcontact.com/</a> ，点击中间那个绿按钮 <code>Create a RequestBin</code>：</p>
-<p><img src="/meidas/assets/image-20180828165824684.png" alt="image-20180828165824684"></p>
+<p><img src="/medias/assets/image-20180828165824684.png" alt="image-20180828165824684"></p>
 <p>系统会分配一个 URL：</p>
-<p><img src="/meidas/assets/image-20180828165847040.png" alt="image-20180828165847040"></p>
+<p><img src="/medias/assets/image-20180828165847040.png" alt="image-20180828165847040"></p>
 <p>这个 URL 就是我们用来接收通知的地址，把这个地址放到支付时的通知地址上：</p>
 <pre class=" language-php"><code class="language-php"><span class="token variable">$config</span> <span class="token operator">=</span> <span class="token punctuation">[</span>
     <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
@@ -446,17 +446,17 @@ curlcurl 是一个比较常用的小软件，它可以用来在命令行中发�
 </code></pre>
 <p>设置好通知地址之后，重新完成一次支付流程，支付成功之后，到网站中查看接收到的通知。</p>
 <p>点击以下小圆点查看接收到的消息：</p>
-<p><img src="/meidas/assets/image-20180828165918180.png" alt="image-20180828165918180"></p>
+<p><img src="/medias/assets/image-20180828165918180.png" alt="image-20180828165918180"></p>
 <p>然后点击查看已经收到了数据：</p>
-<p><img src="/meidas/assets/image-20180828165945623.png" alt="image-20180828165945623"></p>
+<p><img src="/medias/assets/image-20180828165945623.png" alt="image-20180828165945623"></p>
 <p>复制最下方 的数据：</p>
-<p><img src="/meidas/assets/image-20180828170056437.png" alt="image-20180828170056437"></p>
+<p><img src="/medias/assets/image-20180828170056437.png" alt="image-20180828170056437"></p>
 <p>最下方的 <code>RAW BODY</code>，就是支付宝发给我们的通知。</p>
 <h2 id="处理通知"><a href="#处理通知" class="headerlink" title="处理通知"></a>处理通知</h2><p>现在我们通过 ResustBin 网站接收到的支付宝的通知，现在我们就可以手动的把这个通知发给我们自己的网站，我们可以使用 curl 指令完成该操作。 </p>
 <p>使用 curl 把数据以 POST 方式发给我们的网站：</p>
 <pre><code>$ curl -XPOST http://localhost:9999/alipay/notify -d&#39;复制 raw body 内容&#39;
 </code></pre><p>如：</p>
-<p><img src="/meidas/assets/image-20180906170009373.png" alt="image-20180906170009373"></p>
+<p><img src="/medias/assets/image-20180906170009373.png" alt="image-20180906170009373"></p>
 <p>发送之后会显示违法操作，这是因为我们之前项目中添加了 CSRF 防御功能，所以这里我们先注释掉 CSRF 防御的代码。</p>
 <pre class=" language-php"><code class="language-php"><span class="token delimiter">&lt;?php</span>
 <span class="token comment" spellcheck="true">// 使用 redis 保存 SESSION</span>
@@ -732,7 +732,7 @@ else
         repo: 'Resolute-qqw.github.io',
         owner: 'Resolute-qqw',
         admin: "Resolute-qqw",
-        id: '2018-12-19T20-40-00',
+        id: '2018-12-19T21-23-00',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -754,20 +754,20 @@ else
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">上一篇</div>
             <div class="card">
-                <a href="/2018/12/19/php-mian-shi-ti/">
+                <a href="/2018/12/25/javascript-mian-shi-ti/">
                     <div class="card-image">
                         
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="常问的PHP面试题">
+                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="JavaScript高级题">
                         
-                        <span class="card-title">常问的PHP面试题</span>
+                        <span class="card-title">JavaScript高级题</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
-                    <div class="summary">PHP经典 面试题夯实进阶谈谈对面向对象的理解面向对象简称OOP，对象就是人对各种具体事物抽象之后的概念。人们每天都在跟各种对象打交道，就比如:
-一台电脑而对象有很多特性：内存，宽度，颜色…这些就是属性，而对象还有很多功能：听歌，看视频，打</div>
+                    <div class="summary">JavaScript高级题1.Java和JavaScript是什么关系？就像雷锋和雷霆塔的关系一样。
+一般认为，当时 Netscape 之所以将 LiveScript 命名为 JavaScript，是因为 Java 是当时最流行的编程语言，</div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2018-12-19
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2018-12-25
                         </span>
                         <span class="publish-author">
                             
@@ -784,12 +784,12 @@ else
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/面试题/" target="_blank">
-                        <span class="chip bg-color">面试题</span>
+                    <a href="/tags/JavaScript/" target="_blank">
+                        <span class="chip bg-color">JavaScript</span>
                     </a>
                     
-                    <a href="/tags/php/" target="_blank">
-                        <span class="chip bg-color">php</span>
+                    <a href="/tags/面试题/" target="_blank">
+                        <span class="chip bg-color">面试题</span>
                     </a>
                     
                 </div>
@@ -801,30 +801,30 @@ else
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">下一篇</div>
             <div class="card">
-                <a href="/2018/11/29/vue-spa/">
+                <a href="/2018/12/19/wei-xin-zhi-fu/">
                     <div class="card-image">
                         
-                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="Vue-SPA">
+                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="使用微信支付接口的方法">
                         
-                        <span class="card-title">Vue-SPA</span>
+                        <span class="card-title">使用微信支付接口的方法</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
-                    <div class="summary">SPA什么是SPA？SPA(Single Page Application)：单页面应用程序，是一种前端的开发技术，是现在前、后端分离下的一种产物。
+                    <div class="summary">微信支付
 
-传统的网站
+微信支付的开发需要有一个微信公众号并且开通了微信支付才能正常进行，申请微信支付需要有公司资质。对于手上没有支付商户号的同学，可以下载测试账号体验基本的支付功能。
 
-​    我们传统的网站是由很 多个独立的页面 组成的，当我们点击页面中的</div>
+测试账号首先，我们需要访问 https://pay.weixin</div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-11-29
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-12-19
                             </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/前端/" class="post-category" target="_blank">
-                                    前端
+                            <a href="/categories/支付接口/" class="post-category" target="_blank">
+                                    支付接口
                                 </a>
                             
                             
@@ -834,8 +834,12 @@ else
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Vue/" target="_blank">
-                        <span class="chip bg-color">Vue</span>
+                    <a href="/tags/微信/" target="_blank">
+                        <span class="chip bg-color">微信</span>
+                    </a>
+                    
+                    <a href="/tags/支付/" target="_blank">
+                        <span class="chip bg-color">支付</span>
                     </a>
                     
                 </div>
