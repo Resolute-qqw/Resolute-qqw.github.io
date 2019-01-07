@@ -44,9 +44,9 @@
       
         <tags>
             
-            <tag> 面试题 </tag>
-            
             <tag> web </tag>
+            
+            <tag> 面试题 </tag>
             
         </tags>
       
@@ -69,9 +69,9 @@
       
         <tags>
             
-            <tag> JavaScript </tag>
-            
             <tag> 面试题 </tag>
+            
+            <tag> JavaScript </tag>
             
         </tags>
       
@@ -87,7 +87,7 @@
       
       <categories>
           
-          <category> 支付宝 </category>
+          <category> 支付接口 </category>
           
       </categories>
       
